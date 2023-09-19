@@ -18,6 +18,9 @@ public class Todo {
         this.prioridade = prioridade;
     }
 
+    public Todo() {
+    }
+
     private int prioridade;
 
     public Long getId() {
